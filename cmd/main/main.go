@@ -10,6 +10,7 @@ import (
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 )
 
+//menambahkan fungsi main
 func main() {
 	r := mux.NewRouter()
 	routes.RegisterStudentsRoutes(r)
